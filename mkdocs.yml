@@ -3,19 +3,18 @@ site_url: https://example.com/
 
 theme:
   palette:
-    primary: white
+    primary: orange
   name: material
-  logo: assets/images/mapacompleto.svg
   favicon: assets/images/favicon.ico
   language: es
 
+markdown_extensions:
+  - attr_list
 
 plugins:
-  # - with-pdf
   - mknotebooks
   - search
-  # - pdf-export
-
-# extra_css:
-#   - https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css
-#   - https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css
+extra_javascript:
+  # - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

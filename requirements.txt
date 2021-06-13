@@ -11,3 +11,4 @@ pandas
 matplotlib
 openpyxl
 mkdocs-with-pdf
+mkdocs-macros-plugin
