@@ -27,7 +27,7 @@
         
           
           
-          <meta name="theme-color" content="#ffc105">
+          <meta name="theme-color" content="#ffa724">
         
       
     
@@ -41,10 +41,6 @@
       
     
     
-    
-      <link rel="stylesheet" href="css/print-site.css">
-    
-      <link rel="stylesheet" href="css/print-site-material.css">
     
       <link rel="stylesheet" href="css/ansi-colours.css">
     
@@ -66,7 +62,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="amber" data-md-color-accent="">
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="orange" data-md-color-accent="">
   
     
     <script>function __prefix(e){return new URL(".",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
@@ -77,7 +73,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-mkdocs" class="md-skip">
+        <a href="#ejemplo-explicativo-de-canalizaciones-comunes-a-prever-al-instalar-el-primer-punto-de-recarga" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -107,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Welcome to MkDocs
+              Home
             
           </span>
         </div>
@@ -196,46 +192,9 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Welcome to MkDocs
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="." class="md-nav__link md-nav__link--active">
-        Welcome to MkDocs
+        Home
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Tabla de contenidos
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
-    Commands
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
-    Project layout
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -249,8 +208,23 @@
   
   
     <li class="md-nav__item">
-      <a href="print_page/" class="md-nav__link">
-        Print Site
+      <a href="caso2/" class="md-nav__link">
+        Caso2
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="caso3/" class="md-nav__link">
+        Caso3
       </a>
     </li>
   
@@ -275,28 +249,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Tabla de contenidos
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
-    Commands
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
-    Project layout
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -308,21 +260,334 @@
               
                 
                 
-                <h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
-<ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
-</ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script>
+(function() {
+  function addWidgetsRenderer() {
+    var mimeElement = document.querySelector('script[type="application/vnd.jupyter.widget-view+json"]');
+    var scriptElement = document.createElement('script');
+    var widgetRendererSrc = 'https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js';
+    var widgetState;
+
+    // Fallback for older version:
+    try {
+      widgetState = mimeElement && JSON.parse(mimeElement.innerHTML);
+
+      if (widgetState && (widgetState.version_major < 2 || !widgetState.version_major)) {
+        widgetRendererSrc = 'jupyter-js-widgets@*/dist/embed.js';
+      }
+    } catch(e) {}
+
+    scriptElement.src = widgetRendererSrc;
+    document.body.appendChild(scriptElement);
+  }
+
+  document.addEventListener('DOMContentLoaded', addWidgetsRenderer);
+}());
+</script>
+
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+
+<pre><code class="language-python">import numpy as np
+import pandas as pd
+from IPython.display import display, HTML
 </code></pre>
+
+
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+
+<pre><code class="language-python">%%html
+&lt;style&gt;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.dataframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+
+&lt;/style&gt;
+&lt;script&gt;
+code_show=true; 
+function code_toggle() {
+ if (code_show){
+ $('div.input').hide();
+ } else {
+ $('div.input').show();
+ }
+ code_show = !code_show
+} 
+$( document ).ready(code_toggle);
+&lt;/script&gt;
+
+&lt;form action=&quot;javascript:code_toggle()&quot;&gt;&lt;input type=&quot;submit&quot; value=&quot;&quot;&gt;&lt;/form&gt;
+
+</code></pre>
+
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_html rendered_html output_subarea ">
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.dataframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+
+</style>
+<script>
+code_show=true; 
+function code_toggle() {
+ if (code_show){
+ $('div.input').hide();
+ } else {
+ $('div.input').show();
+ }
+ code_show = !code_show
+} 
+$( document ).ready(code_toggle);
+</script>
+<form action="javascript:code_toggle()"><input type="submit" value=""></form>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="ejemplo-explicativo-de-canalizaciones-comunes-a-prever-al-instalar-el-primer-punto-de-recarga"><a href="http://www.f2i2.net/documentos/lsiF2I2/rbt/guias/guia_bt_52_nov17R1.pdf">Ejemplo explicativo de canalizaciones comunes a prever al instalar el primer punto de recarga</a>:</h1>
+<p>Se presenta el siguiente ejemplo de aparcamiento en un edificio existente. Según este ejemplo, el primer punto de
+recarga sería el de la plaza 7 (P7). En este ejemplo, la canalización común que parte del vestíbulo de acceso y llega
+hasta la plaza P7 se dimensionaría para albergar los cables necesarios para la recarga del 15% de las plazas de la
+zona próxima a la P7 para evitar así la instalación posterior de otros sistemas de conducción con el mismo trazado.
+En función de la distribución en planta del aparcamiento se considera que esta zona cubre 7 plazas más (de la P1 a
+la P8, excluida la P7), por lo que se recomienda dimensionar la canalización para alimentar al menos dos estaciones
+de recarga adicionales, redondeando al entero superior, es decir tres estaciones de recarga en total. (ver Figura
+A.1).</p>
+<p>Si la segunda plaza con punto de recarga (PR) fuera la P3, la canalización entre la plaza P7 y la P3 se
+dimensionaría con el mismo criterio para albergar los cables que alimenten al 15% de las plazas de la zona próxima
+a P3 (de P1 a P6, excluida la P3), es decir para un punto de recarga adicional al propio instalado en P3 (ver Figura
+A.2).</p>
+<p>En un supuesto distinto, si la primera plaza a alimentar fuera la P3, el tramo hasta P7 se dimensionaría para
+alimentar tres estaciones de recarga y el tramo entre P7 y P3 para alimentar a dos, reduciendo la sección de la
+conducción a medida que se reduce el número de plazas posibles a alimentar.</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img alt="image-2.png" src="image-2.png" /></p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Si la plaza con PR fuera la P11, la canalización se dimensionaría para albergar los cables que alimenten al 15% de
+las plazas de la zona próxima a P11 (de P9 a P12, excluida la P11), es decir para un punto de recarga adicional al
+propio instalado en P11 (ver Figura A.3).</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Por otra parte, al tratarse de un aparcamiento con varias plantas, el dimensionamiento de la canalización también
+debe aplicarse al tramo vertical. Suponiendo que el aparcamiento tuviera un total de 4 sótanos (S1, S2, S3 y S4) con
+12 plazas por planta y que la primera plaza a alimentar estuviera en sótano S1, el tramo vertical de canalización se
+dimensionaría según estos criterios para albergar los cables que puedan alimentar además de la primera plaza en la
+que se instala el PR, el 15% de las plazas restantes. En general, el dimensionamiento de los tramos verticales de la
+canalización respondería a la siguiente tabla:</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+
+<pre><code class="language-python">tramo=['PB-S1','S1-S2','S2-S3','S3-S4']
+Capacidad=np.ceil((np.asarray([47.,35,23,11])*0.15)+1).tolist()
+</code></pre>
+
+
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+
+<pre><code class="language-python">df=pd.DataFrame(Capacidad,tramo,columns=['Capacidad dimensionada'])
+dfh=df.style.background_gradient().format(&quot;{:.1f}&quot;).render()
+display(HTML(dfh)) 
+
+</code></pre>
+
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_html rendered_html output_subarea ">
+<style type="text/css">
+#T_c6830_row0_col0{
+            background-color:  #023858;
+            color:  #f1f1f1;
+        }#T_c6830_row1_col0{
+            background-color:  #2685bb;
+            color:  #000000;
+        }#T_c6830_row2_col0{
+            background-color:  #b4c4df;
+            color:  #000000;
+        }#T_c6830_row3_col0{
+            background-color:  #fff7fb;
+            color:  #000000;
+        }</style><table id="T_c6830_" ><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" >Capacidad dimensionada</th>    </tr></thead><tbody>
+                <tr>
+                        <th id="T_c6830_level0_row0" class="row_heading level0 row0" >PB-S1</th>
+                        <td id="T_c6830_row0_col0" class="data row0 col0" >9.0</td>
+            </tr>
+            <tr>
+                        <th id="T_c6830_level0_row1" class="row_heading level0 row1" >S1-S2</th>
+                        <td id="T_c6830_row1_col0" class="data row1 col0" >7.0</td>
+            </tr>
+            <tr>
+                        <th id="T_c6830_level0_row2" class="row_heading level0 row2" >S2-S3</th>
+                        <td id="T_c6830_row2_col0" class="data row2 col0" >5.0</td>
+            </tr>
+            <tr>
+                        <th id="T_c6830_level0_row3" class="row_heading level0 row3" >S3-S4</th>
+                        <td id="T_c6830_row3_col0" class="data row3 col0" >3.0</td>
+            </tr>
+    </tbody></table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+
+<pre><code class="language-python">Interruptor=np.asarray([16, 32, 50, 63])
+</code></pre>
+
+
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+
+<pre><code class="language-python">Interruptor*230
+</code></pre>
+
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_text output_subarea output_execute_result">
+<pre>
+<code>array([ 3680,  7360, 11500, 14490])</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+
+<pre><code class="language-python">v=24
+i=30*10**-3
+</code></pre>
+
+
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+
+<pre><code class="language-python">r=v/i
+r
+</code></pre>
+
+
+</div>
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area">
+<div class="output_text output_subarea output_execute_result">
+<pre>
+<code>8000.0</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+
+<pre><code class="language-python">
+</code></pre>
+
+
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+
+<pre><code class="language-python">
+</code></pre>
+
+
+</div>
+</div>
                 
               
               
@@ -338,6 +603,26 @@ docs/
       
         
 <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Pie">
+      
+      
+        
+        <a href="caso2/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: Caso2" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Siguiente
+              </span>
+              Caso2
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -363,9 +648,9 @@ docs/
     
       <script src="assets/javascripts/bundle.76f349be.min.js"></script>
       
-        <script src="js/print-site-instant-loading.js"></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
       
-        <script src="js/print-site.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>
