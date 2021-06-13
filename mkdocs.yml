@@ -1,0 +1,21 @@
+site_name: Blog Infraestrucura Vehiculo Electrico
+site_url: https://example.com/
+
+theme:
+  palette:
+    primary: white
+  name: material
+  logo: assets/images/mapacompleto.svg
+  favicon: assets/images/favicon.ico
+  language: es
+
+
+plugins:
+  # - with-pdf
+  - mknotebooks
+  - search
+  # - pdf-export
+
+# extra_css:
+#   - https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css
+#   - https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css

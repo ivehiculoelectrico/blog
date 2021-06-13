@@ -1,0 +1,13 @@
+mkdocs
+mkdocs-material
+mknotebooks
+# mkdocs-pdf-export-plugin
+# mkpdfs-mkdocs
+# mkdocs-pdf-with-js-plugin
+mkdocs-print-site-plugin
+mkdocs-img2fig-plugin
+flask
+pandas
+matplotlib
+openpyxl
+mkdocs-with-pdf
