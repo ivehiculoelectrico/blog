@@ -9,11 +9,11 @@
 === "Proyectos"
 
 
-    [PROYECTO INSTALACIONES GARAJE](./assets/EJEMPLO PROYECTO VIVIENDAS.pdf)
+    [Instalación Eléctricade unEdificio destinado aViviendas](./assets/EJEMPLO PROYECTO VIVIENDAS.pdf)
 
-    [PROYECTO INSTALACIONES GARAJE](./assets/Proyecto de Instalacion Electrica de un edificio de 26 viviendas.pdf)
+    [Proyecto de instalación eléctrica de un edificio de 26 viviendas, locales comerciales y garaje, situado en el término municipal de Llombai.](./assets/Proyecto de Instalacion Electrica de un edificio de 26 viviendas.pdf)
 
-    [PROYECTO INSTALACIONES GARAJE](./assets/PROYECTO INSTALACIONES GARAJE.pdf)
+    [PROYECTO DE LAS INSTALACIÓNES DEELECTRICIDAD, VENTILACIÓN   Y   INCENDIOSEN   UN   BLOQUE   DE   VIVIENDAS SITUADO EN BERGARA.](./assets/PROYECTO INSTALACIONES GARAJE.pdf)
 
 
 
