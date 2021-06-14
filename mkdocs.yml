@@ -8,18 +8,26 @@ theme:
   favicon: assets/images/ive.png
   logo: assets/images/ive.png
   language: es
-
-
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
     
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
   - attr_list
-
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
 plugins:
   - mknotebooks
   - search
-
+  - literate-nav:
+      nav_file: SUMMARY.md
+      
 extra_javascript:
   # - javascripts/config.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
