@@ -7,7 +7,7 @@
 
 [PROYECTO INSTALACIONES GARAJE](./EJEMPLO PROYECTO VIVIENDAS.pdf){ .md-button }
 
-[PROYECTO INSTALACIONES GARAJE](./JUAN - Proyecto de Instalación Eléctrica de un edificio de 26 viviendas.pdf){ .md-button }
+[PROYECTO INSTALACIONES GARAJE](./JUAN - Proyecto de Instalación Electrica de un edificio de 26 viviendas.pdf){ .md-button }
 
 [PROYECTO INSTALACIONES GARAJE](./PROYECTO INSTALACIONES GARAJE.pdf){ .md-button }
 

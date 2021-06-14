@@ -1,11 +1,12 @@
 site_name: Blog Infraestrucura Vehiculo Electrico
-site_url: https://example.com/
-
+site_url: 'https://ivehiculoelectrico.com/'
+repo_url: 'https://ivehiculoelectrico.com/'
 theme:
   palette:
     primary: orange
   name: material
-  favicon: assets/images/favicon.ico
+  favicon: assets/images/ive.png
+  logo: assets/images/ive.png
   language: es
   
 markdown_extensions:
