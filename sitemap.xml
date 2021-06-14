@@ -2,17 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://example.com/</loc>
-         <lastmod>2021-06-13</lastmod>
+         <lastmod>2021-06-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/caso2/</loc>
-         <lastmod>2021-06-13</lastmod>
+         <loc>https://example.com/ANEXO/ANEXO_1%20ELEMENTOS%20COMUNES%20A%20PREVER%20AL%20INSTALAR%20EL%20PRIMER%20PUNTO%20DE%20RECARGA/</loc>
+         <lastmod>2021-06-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/caso3/</loc>
-         <lastmod>2021-06-13</lastmod>
+         <loc>https://example.com/ANEXO/ANEXO_2_CAPACIDAD%20DISPONIBLE/</loc>
+         <lastmod>2021-06-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/ANEXO/ANEXO_3%20PREVISION%20DE%20CARGAS%20EN%20EDIFICIOS%20DE%20VIVIENDAS/</loc>
+         <lastmod>2021-06-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
