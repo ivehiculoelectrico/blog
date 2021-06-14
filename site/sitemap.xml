@@ -1,22 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://example.com/</loc>
+         <loc>https://ivehiculoelectrico.com/</loc>
          <lastmod>2021-06-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/ANEXO/ANEXO_1%20ELEMENTOS%20COMUNES%20A%20PREVER%20AL%20INSTALAR%20EL%20PRIMER%20PUNTO%20DE%20RECARGA/</loc>
+         <loc>https://ivehiculoelectrico.com/NORMATIVA/</loc>
          <lastmod>2021-06-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/ANEXO/ANEXO_2_CAPACIDAD%20DISPONIBLE/</loc>
+         <loc>https://ivehiculoelectrico.com/NORMATIVA/REBT/</loc>
          <lastmod>2021-06-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/ANEXO/ANEXO_3%20PREVISION%20DE%20CARGAS%20EN%20EDIFICIOS%20DE%20VIVIENDAS/</loc>
+         <loc>https://ivehiculoelectrico.com/NORMATIVA/REBT/ITC-BT%2052/</loc>
+         <lastmod>2021-06-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ivehiculoelectrico.com/NORMATIVA/REBT/ITC-BT%2052/ANEXO/ANEXO_1%20ELEMENTOS%20COMUNES%20A%20PREVER%20AL%20INSTALAR%20EL%20PRIMER%20PUNTO%20DE%20RECARGA/</loc>
+         <lastmod>2021-06-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ivehiculoelectrico.com/NORMATIVA/REBT/ITC-BT%2052/ANEXO/ANEXO_2_CAPACIDAD%20DISPONIBLE/</loc>
+         <lastmod>2021-06-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ivehiculoelectrico.com/NORMATIVA/REBT/ITC-BT%2052/ANEXO/ANEXO_3%20PREVISION%20DE%20CARGAS%20EN%20EDIFICIOS%20DE%20VIVIENDAS/</loc>
          <lastmod>2021-06-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
