@@ -14,6 +14,8 @@
 
         [Submit ](#){ .md-button .md-button--primary }
 
+        ![Placeholder](/assets/images/mapacompleto.svg){ align=left }
+     
 
 
     === "Proyectos"
@@ -46,20 +48,8 @@
         [Simon:](https://www.simonelectric.com/recarga-de-vehiculos-electricos)
 
 
-![Placeholder](https://dummyimage.com/600x400/eee/aaa){ align=left }
-!!! fig inline end
-    Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. Nulla et euismod nulla.
-    Curabitur feugiat, tortor non consequat
-    finibus, justo purus auctor massa, nec
-    semper lorem quam in massa.
 
 
 
 
 
-
-
-```python
-
-```

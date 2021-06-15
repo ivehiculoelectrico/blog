@@ -1,0 +1,276 @@
+
+
+
+
+
+ITC:
+  1. OBJETO Y ÁMBITO DE APLICACIÓN.:
+
+  2. TÉRMINOS Y DEFINICIONES.:
+    SAVE:
+
+    SPL:
+    Modo de carga:
+      1: 
+        Imax: 16
+        duracion: 1-8 h
+        protecion: NO
+        piloto: NO
+        SAVE: NO
+      2: 
+        Imax: 32
+        duracion: 1-8 h
+        protecion: SI
+        piloto: SI
+        SAVE: NO
+      3: 
+        Imax: 32
+        duracion: 1-8 h
+        protecion: SI
+        piloto: NO
+        SAVE: SI
+      4: 
+        Imax: 125
+        duracion: 0.5 h
+        protecion:
+        piloto: NO
+        SAVE: SI
+
+
+  3. ESQUEMAS DE INSTALACIÓN PARA LA RECARGA DE VEHÍCULOS ELÉCTRICOS.:
+    tipo:
+      1 Esquema colectivo o troncal con un contador principal en el origen de la instalación.
+      2 Esquema individual con un contador común para la vivienda y la estación de recarga.
+      3 Esquema individual con un contador para cada estación de recarga.
+        3.1 Instalación en aparcamientos de viviendas unifamiliares
+        3.2 Instalación en aparcamientos o estacionamientos colectivos en edificios o conjuntos inmobiliarios en régimen de propiedadhorizontal.
+        3.3. Otras instalaciones de recarga.
+        4 Esquema con circuito o circuitos adicionales para la recarga del VEHÍCULO ELÉCTRICO.
+
+
+  4. PREVISIÓN DE CARGAS SEGÚN EL ESQUEMA DE LA INSTALACIÓN.:
+    4.1. Esquema colectivo con un contador principal común (esquemas 1a, 1b y 1c).
+    4.2. Esquema individual (esquemas 2, 3a y 3b)
+    4.3. Esquema 4 (esquemas 4a y 4b).
+
+  5.REQUISITOS GENERALES DE LA INSTALACIÓN:
+    5.1 Alimentación.
+    5.2 Sistemas de conexión del neutro.
+    5.3 Canalizaciones.
+    5.4 Punto de conexión.
+    5.5 Contador secundario de medida de energía.
+  6. PROTECCIÓN PARA GARANTIZAR LA SEGURIDAD.:
+    6.1 Medidas de protección contra contactos directos e indirectos.
+    6.2 Medidas de protección en función de las influencias externas.
+    6.3 Medidas de protección contra sobreintensidades
+    6.4 Medidas de protección contra sobretensiones.
+  7. CONDICIONES PARTICULARES DE INSTALACIÓN.:
+    7.1 Red de tierra para plazas de aparcamiento en el exterior.
+
+
+titularidad:
+  colectiva:
+
+    1 IRVE: 
+      preinstalacion:
+        20 m
+    3 ESQUEMA:
+      2 contadores:
+        1a
+        1b
+        1c
+      1 contador:
+        2
+        3a
+        3b
+    2 MODOS: 
+      1 LENTO
+      2 LENTO PILOTO
+      3 SAVE RAPIDO
+    5.4 CONECTOR: 
+      SCHUCKO
+      MENNEKES
+    4 PREVISION DE CARGAS: 
+      cs: 0.3 cn SPL 
+    6.1 PROTECCION: 
+      Int.Dif. 0.30 ma
+      Int.Auto>16/63A
+    6.2 OTROS:
+      Int. IP 44 IK08
+      Ext. IP 54 IK 10
+      Proteccion Sobretensiones
+
+  individual:
+    4 PREVISION DE CARGAS: 
+      cs: 1 
+    6.2 OTROS:
+      Int. IP 44 IK08
+      Ext. IP 54 IK 10
+      Proteccion Sobretensiones
+    6.1 PROTECCION: 
+      Int.Dif. 0.30 ma
+      Int.Auto>16/63A
+    5.4 CONECTOR: 
+      SCHUCKO
+      MENNEKES
+    2 MODOS: 
+      1 LENTO
+      2 LENTO PILOTO
+      3 SAVE RAPIDO
+    1 IRVE: 
+      C13
+      flota 1/40
+    3 ESQUEMA:
+      4a
+      4b
+  publica:
+    4 PREVISION DE CARGAS: 
+      cs: 1 
+    6.2 OTROS:
+      Int. IP 44 IK08
+      Ext. IP 54 IK 10
+      Proteccion Sobretensiones
+    6.1 PROTECCION: 
+      Int.Dif. 0.30 ma
+      Int.Auto>16/63A
+    5.4 CONECTOR: 
+      MENNEKES
+      COMBO
+    2 MODOS: 
+      3 SAVE RAPIDO
+      4 SAVE MUY RAPIDO
+    1 IRVE:     
+      1/40
+    3 ESQUEMA:
+      4b
+
+
+MODOS DE CARGA:
+  1:
+    denominacion: DIRECTO
+    tomas de corriente: SCHUKO
+    I_max: 16
+    comunicacion: NO
+  2:
+    denominacion: PILOTO
+    tomas de corriente: SCHUKO
+    I_max: 32
+    comunicacion: SI
+  3:
+    denominacion: SAVE
+    tomas de corriente:
+    I_max:
+    comunicacion:
+  4:
+    denominacion: SAVE RAPIDO
+    tomas de corriente:
+    I_max:
+    comunicacion:
+
+
+
+
+
+esquema DE INSTALACION:
+  1:
+    SPL: SI
+    a:
+      wh: SI
+      wh_secundario: estacion
+      CC: NO
+    b:
+      wh: SI
+      wh_secundario: estacion
+      CC: SI
+    c:
+      wh: SI
+      wh_secundario: cc
+      CC: SI
+  2:
+    a: 
+      wh: SI
+      wh_secundario: NO
+      CC: NO
+  3:
+    a:
+      wh: SI
+      wh_secundario: contrato
+      CC: NO
+    b:
+      wh: SI
+      wh_secundario: contrato
+      CC: SI
+  4:
+    a:
+      c13 adicional: no
+    b:
+      c13 adicional: si
+
+
+
+
+
+ITC afectadas:
+  ITC bt-04:
+    grupo Z:
+      1:
+        Tipo de Instalación: Las correspondientes a las infraestructuras para la recarga  del vehículo eléctrico.
+        Limites: P> 50 kW
+      2: 
+        Tipo de Instalación:  Otras instalaciones de recarga situadas en el exterior.
+        Limites: P > 10 kW
+      3:
+        Tipo de Instalación: Todas las instalaciones que incluyan estaciones de recarga  previstas para el modo de carga 4.
+        Limites: Según corresponda
+  ITC bt-05:
+    grupo h:
+      Tipo de instalacion: Instalaciones de las estaciones de recarga para el vehículo eléctrico, que requieran la elaboración de proyecto para su ejecución.
+      Inspeccion: todos
+      
+  ITC-BT-10: 
+    pot:  3680  * 0.1 * total de las plazas de aparcamiento 
+    FS: 1 sin SPL / 0.3 con SPL (ojo 100 KW extenson de red)
+    viviendas unifamiliares con garaje: 
+      potencia: 9200/11500/14490
+      IGA: 40 / 50 / 63
+      ejm: 
+        p1: 
+          denom: conjunto de viviendas
+          NUMERO: 20
+          pot:  5750
+          fs: 14.8 
+        p2: 
+          denom: servicios generales
+          ascensor: 7.5 kw 
+          alumbrado:  1kw
+        p3:
+          denom: locales comerciales
+          pot: 4 kw
+        p4:
+          denom: garajes disteinta recarga
+          pot: 0
+        p5:
+          denom: recarga
+          pot: 3680 * 20 
+          cs: 0.1
+        total:
+          sinSPL: 105 kW
+          conSPL: 99 KW
+        extension: RD 1048/2013 art 25
+
+  ITC-BT-16:
+    - Unidad funcional de medida destinada a la medida de la recarga del vehículo eléctrico (según el tipo de esquema eléctrico utilizado de los indicados en la BT-52).
+    - Unidad funcional de mando y protección para la recarga del vehículo eléctrico [según el tipo de esquema eléctrico utilizado de los indicados en la (ITC) BT-52].
+    - Unidad de sistema de protección de la línea general de alimentación (SPL) del vehículo eléctrico [según el tipo de esquema eléctrico utilizado de los indicados en la (ITC) BT-52 y según se trate de una instalación nueva o ya existente].»
+  ITC-BT-25:
+    C13:
+      POTENCIA PREVISTA:
+      FS:
+      fu:
+      Tipo de toma:
+      Interruptor automatico:
+      Maximo numero de puntos: 3
+      Conductores seccion minima: 2.5
+      tubo: 20
+
+          
