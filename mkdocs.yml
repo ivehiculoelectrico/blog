@@ -15,20 +15,28 @@ theme:
     - navigation.top
     
 markdown_extensions:
+  - abbr
+  - pymdownx.snippets
+  - pymdownx.tabbed
+
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - footnotes
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
   - pymdownx.arithmatex:
       generic: true
   - attr_list
   - toc:
       permalink: true
-  - pymdownx.superfences
-  - pymdownx.tabbed
 plugins:
   - mknotebooks
   - search
-  - literate-nav:
-      nav_file: SUMMARY.md
+
       
 extra_javascript:
-  # - javascripts/config.js
+  - assets/javascripts/config.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
