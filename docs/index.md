@@ -1,10 +1,11 @@
-# Documentos
+# 
 
 
-???+ example
+???+ Resumen
 
     === "Enlaces"
         [(ITC) BT 52 "Instalaciones con fines especiales. Infraestructura para la recarga de vehículos eléctricos"](https://www.boe.es/buscar/doc.php?id=BOE-A-2014-13681)
+
 
     === "Tecnico"
 
@@ -14,8 +15,9 @@
 
         [Submit ](#){ .md-button .md-button--primary }
 
-        ![Placeholder](/assets/images/mapacompleto.svg){ align=left }
+        ![Placeholder](./assets/images/mapacompleto.svg){ align=left }
      
+??? example
 
 
     === "Proyectos"
