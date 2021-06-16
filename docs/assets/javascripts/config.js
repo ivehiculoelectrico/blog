@@ -3,7 +3,6 @@
 document.getElementsByClassName('md-source__icon md-icon')[0].style.visibility = 'hidden';
 
 
-
 window.MathJax = {
     tex: {
         inlineMath: [["\\(", "\\)"]],
