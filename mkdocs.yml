@@ -1,6 +1,6 @@
 site_name: Blog Infraestrucura Vehiculo Electrico
 site_url: 'https://ivehiculoelectrico.com/'
-repo_url: 'https://ivehiculoelectrico.com/'
+
 theme:
   palette:
     primary: orange
