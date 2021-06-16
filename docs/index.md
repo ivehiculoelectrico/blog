@@ -147,7 +147,7 @@ A los efectos de esta instrucción se entenderá por:
 
     ??? Warning guia
 
-        Con  posterioridad  a  la  publicación  del  RD  1053/2014  que  aprueba  la  ITC-BT  52 se  ha  aprobado  la  Especificación [UNE  0048](../assets/000000NUEA167_ES.pdf)  "  Infraestructura  para  la  recarga  de  vehículos  eléctricos.  Sistema  de  protección  de  la  línea  general  de alimentación  (SPL)" que  facilita  directrices  e  información  con  respecto  de  las  funcionalidades  y  requisitos  de seguridad mínimos de un SPL y es aplicable a todas aquellas soluciones que pretenden realizar la función de SPL. Un SPL puede presentarse como un producto único, un conjunto de productos y medidas, soluciones de hardware osoftware o sistemas domóticos oinmóticos
+        Con  posterioridad  a  la  publicación  del  RD  1053/2014  que  aprueba  la  ITC-BT  52 se  ha  aprobado  la  Especificación [UNE  0048](./assets/000000NUEA167_ES.pdf)  "  Infraestructura  para  la  recarga  de  vehículos  eléctricos.  Sistema  de  protección  de  la  línea  general  de alimentación  (SPL)" que  facilita  directrices  e  información  con  respecto  de  las  funcionalidades  y  requisitos  de seguridad mínimos de un SPL y es aplicable a todas aquellas soluciones que pretenden realizar la función de SPL. Un SPL puede presentarse como un producto único, un conjunto de productos y medidas, soluciones de hardware osoftware o sistemas domóticos oinmóticos
 
 ??? "Vehículo eléctrico (VEHÍCULO ELÉCTRICO)"
     Vehículo  eléctrico  cuya  energía  de  propulsión  procede,  total  o  parcialmente,  de  la  electricidad  de  sus  baterías utilizando para su recarga la energía de una fuente exterior al vehículo eléctrico, por ejemplo, la red eléctrica
@@ -157,19 +157,19 @@ A los efectos de esta instrucción se entenderá por:
     La conexión entre la estación de recarga y el VEHÍCULO ELÉCTRICO se podrá realizar según los casos A, B y C descritos en las figuras 1, 2 y 3. Nótese que las figuras 1, 2 y 3 no presuponen ningún diseño específico.
 
     === "A"
-        ![UNE  0048](../assets/images/conexionA.png) 
+        ![UNE  0048](./assets/images/conexionA.png) 
 
         Caso A1:conexión a un punto de recarga simple mediante una toma de corriente para usos domésticos y análogos.
         Caso A2: conexión a un punto de recarga tipo SAVE.
 
     === "B"
-        ![UNE  0048](../assets/images/conexionB.png) 
+        ![UNE  0048](./assets/images/conexionB.png) 
 
         Caso B1: conexión a un punto de recarga simple mediante una toma de corriente para usos domésticos y análogos.
         Caso B2: conexión a un punto de recarga tipo SAVE.
     === "C"
-        ![UNE  0048](../assets/images/conexionC.png) 
+        ![UNE  0048](./assets/images/conexionC.png) 
 
     === "D"
-        ![UNE  0048](../assets/images/conexionD.png) 
+        ![UNE  0048](./assets/images/conexionD.png) 
 
