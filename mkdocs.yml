@@ -3,7 +3,7 @@ site_url: 'https://ivehiculoelectrico.com/'
 
 theme:
   palette:
-    primary: orange
+    primary: white
   name: material
   favicon: assets/images/ive.png
   logo: assets/images/ive.png
@@ -34,7 +34,6 @@ markdown_extensions:
 plugins:
   - mknotebooks
   - search
-
       
 extra_javascript:
   - assets/javascripts/config.js
