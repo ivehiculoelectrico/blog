@@ -1,9 +1,9 @@
-site_name: Blog Infraestrucura Vehiculo Electrico
+site_name: Infraestrucura Vehiculo Electrico
 site_url: 'https://ivehiculoelectrico.com/'
 
 theme:
   palette:
-    primary: white
+    primary: black
   name: material
   favicon: assets/images/ive.png
   logo: assets/images/ive.png
