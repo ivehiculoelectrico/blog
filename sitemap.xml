@@ -2,42 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://ivehiculoelectrico.com/</loc>
-         <lastmod>2021-06-27</lastmod>
+         <lastmod>2021-06-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ivehiculoelectrico.com/ITC-BT%2052/1.%20OBJETO%20Y%20AMBITO%20DE%20APLICACION/</loc>
-         <lastmod>2021-06-27</lastmod>
+         <loc>https://ivehiculoelectrico.com/ITC-BT_52/1._OBJETO_Y_AMBITO_DE_APLICACION/</loc>
+         <lastmod>2021-06-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ivehiculoelectrico.com/ITC-BT%2052/2.%20TERMINOS%20Y%20DEFINICIONES/</loc>
-         <lastmod>2021-06-27</lastmod>
+         <loc>https://ivehiculoelectrico.com/ITC-BT_52/2._TERMINOS_Y_DEFINICIONES/</loc>
+         <lastmod>2021-06-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ivehiculoelectrico.com/ITC-BT%2052/3.%20ESQUEMAS%20DE%20INSTALACION%20PARA%20LA%20RECARGA%20DE%20VEHICULOS%20ELECTRICOS/</loc>
-         <lastmod>2021-06-27</lastmod>
+         <loc>https://ivehiculoelectrico.com/ITC-BT_52/3._ESQUEMAS_DE_INSTALACION_PARA_LA_RECARGA_DE_VEHICULOS_ELECTRICOS/</loc>
+         <lastmod>2021-06-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ivehiculoelectrico.com/ITC-BT%2052/4.%20PREVISION%20DE%20CARGAS%20SEGUN%20EL%20ESQUEMA%20DE%20LA%20INSTALACION/</loc>
-         <lastmod>2021-06-27</lastmod>
+         <loc>https://ivehiculoelectrico.com/ITC-BT_52/4._PREVISION_DE_CARGAS_SEGUN_EL_ESQUEMA_DE_LA_INSTALACION/</loc>
+         <lastmod>2021-06-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ivehiculoelectrico.com/ITC-BT%2052/5.REQUISITOS%20GENERALES%20DE%20LA%20INSTALACION/</loc>
-         <lastmod>2021-06-27</lastmod>
+         <loc>https://ivehiculoelectrico.com/ITC-BT_52/5._REQUISITOS_GENERALES_DE_LA_INSTALACION/</loc>
+         <lastmod>2021-06-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ivehiculoelectrico.com/ITC-BT%2052/6.%20PROTECCION%20PARA%20GARANTIZAR%20LA%20SEGURIDAD/</loc>
-         <lastmod>2021-06-27</lastmod>
+         <loc>https://ivehiculoelectrico.com/ITC-BT_52/6._PROTECCION_PARA_GARANTIZAR_LA_SEGURIDAD/</loc>
+         <lastmod>2021-06-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ivehiculoelectrico.com/ITC-BT%2052/7.%20CONDICIONES%20PARTICULARES%20DE%20INSTALACION/</loc>
-         <lastmod>2021-06-27</lastmod>
+         <loc>https://ivehiculoelectrico.com/ITC-BT_52/7._CONDICIONES_PARTICULARES_DE_INSTALACION/</loc>
+         <lastmod>2021-06-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ivehiculoelectrico.com/ITC-BT_52/ANEXO_1_ELEMENTOS_COMUNES_A_PREVER_AL_INSTALAR_EL_PRIMER_PUNTO_DE_RECARGA/</loc>
+         <lastmod>2021-06-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ivehiculoelectrico.com/ITC-BT_52/ANEXO_2_CAPACIDAD_DISPONIBLE/</loc>
+         <lastmod>2021-06-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ivehiculoelectrico.com/ITC-BT_52/ANEXO_3_PREVISION_DE_CARGAS_EN_EDIFICIOS_DE_VIVIENDAS/</loc>
+         <lastmod>2021-06-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
